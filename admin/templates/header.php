@@ -1,7 +1,9 @@
+<?php $url_base="http://localhost/website/admin/";?>
+
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>Administrador Web</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -27,12 +29,12 @@
                 <div class="nav navbar-nav">
                     <a class="nav-item nav-link active" href="#" aria-current="page"
                         >Administrador <span class="visually-hidden">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Servicios</a>
-                    <a class="nav-item nav-link" href="#">Portafolio</a>
-                    <a class="nav-item nav-link" href="#">Entrada</a>
-                    <a class="nav-item nav-link" href="#">Equipo</a>
-                    <a class="nav-item nav-link" href="#">Configuraciones</a>
-                    <a class="nav-item nav-link" href="#">Servicios</a>
+                    <a class="nav-item nav-link" href="<?php echo $url_base;?>secciones/servicios/">Servicios</a>
+                    <a class="nav-item nav-link" href="<?php echo $url_base;?>secciones/portafolio/">Portafolio</a>
+                    <a class="nav-item nav-link" href="<?php echo $url_base;?>secciones/entradas/">Entrada</a>
+                    <a class="nav-item nav-link" href="<?php echo $url_base;?>secciones/equipo/">Equipo</a>
+                    <a class="nav-item nav-link" href="<?php echo $url_base;?>secciones/configuraciones/">Configuraciones</a>
+                    <a class="nav-item nav-link" href="<?php echo $url_base;?>secciones/usuarios/">Usuarios</a>
 
                 </div>
             </nav>

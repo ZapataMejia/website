@@ -1,11 +1,9 @@
-<?php
-include("./bd.php");
-?>
+<?php include("./bd.php");?>
 
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>Login</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -26,7 +24,24 @@ include("./bd.php");
         <header>
             <!-- place navbar here -->
         </header>
-        <main></main>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-4"
+                    >
+                        First Column
+                    </div>
+                    <div
+                        class="col-4"
+                    >
+                        Second Column
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </main>
         <footer>
             <!-- place footer here -->
         </footer>
